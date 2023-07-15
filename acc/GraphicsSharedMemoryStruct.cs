@@ -4,7 +4,7 @@ namespace acc
 {
     [StructLayout(LayoutKind.Sequential, Pack = 4, CharSet = CharSet.Unicode)]
     [Serializable]
-    internal class GraphicsSharedMemoryStruct
+    public struct GraphicsSharedMemoryStruct
     {
         public int packetId;
         public ACC_STATUS status;
